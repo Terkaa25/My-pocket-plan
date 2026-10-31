@@ -7,13 +7,13 @@
 <title>My Pocket Plan</title>
 <style>
 :root{--green:#12372a;--green2:#1f5b43;--mint:#e8f4ed;--bg:#f5f7f5;--ink:#17231d;--muted:#69766e;--line:#e2e9e3;--white:#fff;--red:#b74343;--gold:#f1c66b}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink)}.app{max-width:560px;margin:0 auto;min-height:100vh;padding-bottom:28px}.hero{background:linear-gradient(145deg,var(--green),#245b42);color:white;padding:28px 20px 24px;border-radius:0 0 26px 26px}.top{display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800;letter-spacing:.2px;font-size:19px}.tag{font-size:11px;border:1px solid #ffffff50;padding:5px 9px;border-radius:20px;color:#e7f3ea}.hello{margin-top:24px;color:#d5e7db;font-size:13px}.balance-label{margin-top:5px;font-size:13px;color:#d5e7db}.balance{font-size:34px;font-weight:800;letter-spacing:-1px;margin:3px 0 17px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{background:#ffffff14;border:1px solid #ffffff22;border-radius:14px;padding:12px}.stat small{display:block;color:#d5e7db;font-size:11px;margin-bottom:5px}.stat strong{font-size:16px}.content{padding:20px}.section-head{display:flex;justify-content:space-between;align-items:center;margin:2px 0 12px}.section-head h2{font-size:17px;margin:0}.hint{font-size:11px;color:var(--muted)}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:23px}.action{border:1px solid var(--line);background:white;border-radius:14px;padding:13px 5px;text-align:center;font-weight:700;font-size:12px;color:var(--green);cursor:pointer}.action span{display:block;font-size:22px;margin-bottom:5px}.card{background:white;border:1px solid var(--line);border-radius:17px;padding:15px;margin-bottom:18px}.goal-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.goal-name{font-weight:750}.goal-meta{font-size:12px;color:var(--muted);margin-top:4px}.pill{font-size:10px;background:var(--mint);color:var(--green2);padding:5px 8px;border-radius:20px;white-space:nowrap}.progress{height:8px;background:#edf1ed;border-radius:10px;overflow:hidden;margin:13px 0 8px}.bar{height:100%;background:var(--green2);width:0%;border-radius:10px}.goal-foot{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}.goal-actions{display:flex;gap:8px;margin-top:13px}.small-btn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 10px;font-size:12px;font-weight:650;color:var(--green);cursor:pointer}.empty{text-align:center;color:var(--muted);font-size:13px;padding:18px 5px}.tx{display:flex;align-items:center;gap:11px;padding:11px 0;border-bottom:1px solid #eef1ee}.tx:last-child{border-bottom:0}.tx-icon{width:38px;height:38px;display:grid;place-items:center;background:var(--mint);border-radius:12px;font-size:18px}.tx-main{flex:1;min-width:0}.tx-title{font-size:13px;font-weight:700;overflow-wrap:anywhere}.tx-date{font-size:11px;color:var(--muted);margin-top:3px}.amount{font-weight:800;font-size:13px;white-space:nowrap}.positive{color:var(--green2)}.negative{color:var(--red)}.footer{text-align:center;color:var(--muted);font-size:11px;padding:4px 20px 20px}.modal-back{position:fixed;inset:0;background:#10251dcc;display:none;align-items:flex-end;justify-content:center;padding:12px;z-index:10}.modal{width:100%;max-width:520px;background:white;border-radius:22px;padding:20px;max-height:90vh;overflow:auto}.modal h3{margin:0 0 15px;font-size:19px}.field{margin:12px 0}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;border:1px solid #d8e1da;border-radius:11px;padding:12px;font:inherit;font-size:14px;background:#fff}.modal-buttons{display:flex;gap:9px;margin-top:18px}.btn{flex:1;border:0;border-radius:12px;padding:13px;font-weight:800;font-size:14px;cursor:pointer}.primary{background:var(--green);color:white}.secondary{background:#edf2ee;color:var(--green)}.danger{background:#fff0f0;color:var(--red)}.note{font-size:11px;line-height:1.5;color:var(--muted);margin-top:12px}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink)}.app{max-width:560px;margin:0 auto;min-height:100vh;padding-bottom:28px}.hero{background:linear-gradient(145deg,var(--green),#245b42);color:white;padding:28px 20px 24px;border-radius:0 0 26px 26px}.top{display:flex;justify-content:space-between;align-items:center;gap:10px}.brand{font-weight:800;letter-spacing:.2px;font-size:19px}.tag{font-size:11px;border:1px solid #ffffff50;padding:5px 9px;border-radius:20px;color:#e7f3ea}.hello{margin-top:24px;color:#d5e7db;font-size:13px}.balance-label{margin-top:5px;font-size:13px;color:#d5e7db}.balance{font-size:34px;font-weight:800;letter-spacing:-1px;margin:3px 0 17px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{background:#ffffff14;border:1px solid #ffffff22;border-radius:14px;padding:12px}.stat small{display:block;color:#d5e7db;font-size:11px;margin-bottom:5px}.stat strong{font-size:16px}.content{padding:20px}.section-head{display:flex;justify-content:space-between;align-items:center;margin:2px 0 12px}.section-head h2{font-size:17px;margin:0}.hint{font-size:11px;color:var(--muted)}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:23px}.action{border:1px solid var(--line);background:white;border-radius:14px;padding:13px 5px;text-align:center;font-weight:700;font-size:12px;color:var(--green);cursor:pointer}.action span{display:block;font-size:22px;margin-bottom:5px}.card{background:white;border:1px solid var(--line);border-radius:17px;padding:15px;margin-bottom:18px}.goal-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.goal-name{font-weight:750}.goal-meta{font-size:12px;color:var(--muted);margin-top:4px}.pill{font-size:10px;background:var(--mint);color:var(--green2);padding:5px 8px;border-radius:20px;white-space:nowrap}.progress{height:8px;background:#edf1ed;border-radius:10px;overflow:hidden;margin:13px 0 8px}.bar{height:100%;background:var(--green2);width:0%;border-radius:10px}.goal-foot{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}.goal-actions{display:flex;gap:8px;margin-top:13px;flex-wrap:wrap}.small-btn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 10px;font-size:12px;font-weight:650;color:var(--green);cursor:pointer}.empty{text-align:center;color:var(--muted);font-size:13px;padding:18px 5px}.tx{display:flex;align-items:center;gap:11px;padding:11px 0;border-bottom:1px solid #eef1ee}.tx:last-child{border-bottom:0}.tx-icon{width:38px;height:38px;display:grid;place-items:center;background:var(--mint);border-radius:12px;font-size:18px}.tx-main{flex:1;min-width:0}.tx-title{font-size:13px;font-weight:700;overflow-wrap:anywhere}.tx-date{font-size:11px;color:var(--muted);margin-top:3px}.amount{font-weight:800;font-size:13px;white-space:nowrap}.positive{color:var(--green2)}.negative{color:var(--red)}.footer{text-align:center;color:var(--muted);font-size:11px;padding:4px 20px 20px}.modal-back{position:fixed;inset:0;background:#10251dcc;display:none;align-items:flex-end;justify-content:center;padding:12px;z-index:10}.modal{width:100%;max-width:520px;background:white;border-radius:22px;padding:20px;max-height:90vh;overflow:auto}.modal h3{margin:0 0 15px;font-size:19px}.field{margin:12px 0}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;border:1px solid #d8e1da;border-radius:11px;padding:12px;font:inherit;font-size:14px;background:#fff}.modal-buttons{display:flex;gap:9px;margin-top:18px}.btn{flex:1;border:0;border-radius:12px;padding:13px;font-weight:800;font-size:14px;cursor:pointer}.primary{background:var(--green);color:white}.secondary{background:#edf2ee;color:var(--green)}.danger{background:#fff0f0;color:var(--red)}.note{font-size:11px;line-height:1.5;color:var(--muted);margin-top:12px}.auth-card{margin:18px 20px 0;background:#fff;border:1px solid var(--line);border-radius:17px;padding:17px}.auth-card h2{font-size:18px;margin:0 0 6px}.auth-card p{font-size:12px;line-height:1.5;color:var(--muted);margin:0 0 12px}.auth-card input{width:100%;border:1px solid #d8e1da;border-radius:11px;padding:12px;font:inherit;font-size:14px;margin:6px 0}.auth-buttons{display:flex;gap:9px;margin-top:8px}.auth-buttons button{flex:1}.status{font-size:12px;line-height:1.5;margin-top:10px;color:var(--green2);overflow-wrap:anywhere}.status.error{color:var(--red)}.hidden{display:none!important}
 </style>
 </head>
 <body>
 <div class="app">
 <header class="hero">
- <div class="top"><div class="brand">🌿 My Pocket Plan</div><div class="tag">PRIVATE • ON THIS DEVICE</div></div>
+ <div class="top"><div class="brand">🌿 My Pocket Plan</div><div class="tag" id="privacyTag">SECURE CLOUD SYNC</div></div>
  <div class="hello" id="greeting">Your money, more organised</div>
  <div class="balance-label">Available balance (income − expenses)</div>
  <div class="balance" id="balance">₦0</div>
@@ -22,7 +22,20 @@
   <div class="stat"><small>Expenses recorded</small><strong id="expenses">₦0</strong></div>
  </div>
 </header>
-<main class="content">
+
+<section class="auth-card" id="authPanel">
+ <h2 id="authTitle">Welcome to My Pocket Plan</h2>
+ <p id="authDescription">Create an account or sign in. Your records will be linked to your account so you can access them on another device.</p>
+ <input id="email" type="email" autocomplete="email" placeholder="Email address">
+ <input id="password" type="password" autocomplete="current-password" placeholder="Password (at least 6 characters)">
+ <div class="auth-buttons">
+  <button class="btn primary" id="signupBtn" type="button">Create account</button>
+  <button class="btn secondary" id="loginBtn" type="button">Sign in</button>
+ </div>
+ <div class="status" id="authStatus" role="status">Use an email address you can access. Never share your password.</div>
+</section>
+
+<main class="content hidden" id="mainContent">
  <div class="section-head"><h2>Quick actions</h2><span class="hint">Track, don't guess</span></div>
  <div class="actions">
   <button class="action" onclick="openTx('income')"><span>＋</span>Add income</button>
@@ -34,47 +47,206 @@
  <div class="section-head"><h2>Recent activity</h2><span class="hint" id="txCount">0 records</span></div>
  <div class="card" id="transactions"><div class="empty">No records yet. Add your first income or expense above.</div></div>
  <div class="card">
-  <strong style="font-size:13px">🔐 Your privacy</strong>
-  <div class="note">This starter version saves entries in this browser on this device. It does not send your financial records to a server. Clearing browser data may erase them, so use Export backup regularly. This is a tracker only; it does not hold or transfer money.</div>
-  <div class="goal-actions"><button class="small-btn" onclick="exportData()">⬇ Export backup</button><button class="small-btn" onclick="document.getElementById('importFile').click()">⬆ Restore backup</button><button class="small-btn" onclick="clearAll()">Reset app</button></div>
+  <strong style="font-size:13px">🔐 Your privacy & backup</strong>
+  <div class="note">Your records are stored in your Supabase account and protected by account-based database rules. Export a backup regularly. This is a tracker only; it does not hold or transfer money. No subscription is required for this starter setup, but free service limits may apply.</div>
+  <div class="goal-actions">
+   <button class="small-btn" onclick="syncNow()">↻ Sync now</button>
+   <button class="small-btn" onclick="exportData()">⬇ Export backup</button>
+   <button class="small-btn" onclick="document.getElementById('importFile').click()">⬆ Restore backup</button>
+   <button class="small-btn" onclick="signOutUser()">Sign out</button>
+  </div>
   <input id="importFile" type="file" accept="application/json" style="display:none" onchange="importData(event)">
+  <div class="status" id="syncStatus">Cloud sync is connected when you are signed in.</div>
  </div>
 </main>
-<div class="footer">My Pocket Plan • Starter version • No subscription required</div>
+<div class="footer">My Pocket Plan • Free starter version • No subscription required</div>
 </div>
+
 <div class="modal-back" id="modalBack" onclick="if(event.target===this)closeModal()"><div class="modal" id="modal"></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
+/*
+  My Pocket Plan Supabase setup.
+  The publishable key is designed for browser use. Never put a Supabase secret/service_role key here.
+*/
+const SUPABASE_URL='https://gwgaqygvkjnvqrpuymtb.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY='sb_publishable_kWNvJ4dC_PWhk2_SYQsEEg_ankfjQqk';
 const KEY='mypocketplan_v1';
 let state={transactions:[],goals:[]};
-try{const saved=localStorage.getItem(KEY);if(saved)state=JSON.parse(saved)}catch(e){}
+let currentUser=null;
+let supabaseClient=null;
+let syncing=false;
+
+try{
+ const saved=localStorage.getItem(KEY);
+ if(saved){const parsed=JSON.parse(saved);if(Array.isArray(parsed.transactions)&&Array.isArray(parsed.goals))state=parsed;}
+}catch(e){console.warn('Local backup could not be read',e);}
+
 const fmt=n=>new Intl.NumberFormat('en-NG',{style:'currency',currency:'NGN',maximumFractionDigits:0}).format(Number(n)||0);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function save(){localStorage.setItem(KEY,JSON.stringify(state));render()}
-function sums(){let income=0,expenses=0;state.transactions.forEach(t=>{if(t.type==='income')income+=t.amount;else expenses+=t.amount});return{income,expenses,balance:income-expenses}}
+function setStatus(id,message,isError=false){const el=document.getElementById(id);el.textContent=message;el.classList.toggle('error',isError);}
+function saveLocal(){localStorage.setItem(KEY,JSON.stringify(state));}
+function save(){saveLocal();render();if(currentUser)syncNow();}
+function sums(){let income=0,expenses=0;state.transactions.forEach(t=>{if(t.type==='income')income+=Number(t.amount)||0;else expenses+=Number(t.amount)||0});return{income,expenses,balance:income-expenses};}
 function render(){
  const s=sums();document.getElementById('balance').textContent=fmt(s.balance);document.getElementById('income').textContent=fmt(s.income);document.getElementById('expenses').textContent=fmt(s.expenses);
  document.getElementById('goalCount').textContent=`${state.goals.length} goal${state.goals.length===1?'':'s'}`;
  const goals=document.getElementById('goals');
  if(!state.goals.length)goals.innerHTML='<div class="card empty">No savings goals yet. Create one for something important to you.</div>';
- else goals.innerHTML=state.goals.map(g=>{const p=Math.min(100,Math.round(g.saved/g.target*100));return `<div class="card"><div class="goal-top"><div><div class="goal-name">${esc(g.name)}</div><div class="goal-meta">${fmt(g.saved)} saved of ${fmt(g.target)}</div></div><span class="pill">${p}%</span></div><div class="progress"><div class="bar" style="width:${p}%"></div></div><div class="goal-foot"><span>${fmt(Math.max(0,g.target-g.saved))} to go</span><span>${p===100?'Goal reached!':'Keep going'}</span></div><div class="goal-actions"><button class="small-btn" onclick="addToGoal('${g.id}')">＋ Add savings</button><button class="small-btn" onclick="editGoal('${g.id}')">Edit</button><button class="small-btn" onclick="deleteGoal('${g.id}')">Delete</button></div></div>`}).join('');
- const tx=document.getElementById('transactions');const recent=[...state.transactions].sort((a,b)=>b.created-a.created).slice(0,12);document.getElementById('txCount').textContent=`${state.transactions.length} record${state.transactions.length===1?'':'s'}`;
- tx.innerHTML=recent.length?recent.map(t=>`<div class="tx"><div class="tx-icon">${t.type==='income'?'＋':'↘'}</div><div class="tx-main"><div class="tx-title">${esc(t.note|| (t.type==='income'?'Income':'Expense'))}</div><div class="tx-date">${new Date(t.date+'T12:00:00').toLocaleDateString()} · ${t.type==='income'?'Income':'Expense'}</div></div><div class="amount ${t.type==='income'?'positive':'negative'}">${t.type==='income'?'+':'−'}${fmt(t.amount)}</div><button class="small-btn" aria-label="Delete record" onclick="deleteTx('${t.id}')">×</button></div>`).join(''):'<div class="empty">No records yet. Add your first income or expense above.</div>';
+ else goals.innerHTML=state.goals.map(g=>{const p=g.target>0?Math.min(100,Math.round(g.saved/g.target*100)):0;return `<div class="card"><div class="goal-top"><div><div class="goal-name">${esc(g.name)}</div><div class="goal-meta">${fmt(g.saved)} saved of ${fmt(g.target)}</div></div><span class="pill">${p}%</span></div><div class="progress"><div class="bar" style="width:${p}%"></div></div><div class="goal-foot"><span>${fmt(Math.max(0,g.target-g.saved))} to go</span><span>${p===100?'Goal reached!':'Keep going'}</span></div><div class="goal-actions"><button class="small-btn" onclick="addToGoal('${g.id}')">＋ Add savings</button><button class="small-btn" onclick="editGoal('${g.id}')">Edit</button><button class="small-btn" onclick="deleteGoal('${g.id}')">Delete</button></div></div>`}).join('');
+ const tx=document.getElementById('transactions');const recent=[...state.transactions].sort((a,b)=>(Number(b.created)||0)-(Number(a.created)||0)).slice(0,12);document.getElementById('txCount').textContent=`${state.transactions.length} record${state.transactions.length===1?'':'s'}`;
+ tx.innerHTML=recent.length?recent.map(t=>`<div class="tx"><div class="tx-icon">${t.type==='income'?'＋':'↘'}</div><div class="tx-main"><div class="tx-title">${esc(t.note|| (t.type==='income'?'Income':'Expense'))}</div><div class="tx-date">${new Date((t.date||new Date().toISOString().slice(0,10))+'T12:00:00').toLocaleDateString()} · ${t.type==='income'?'Income':'Expense'}</div></div><div class="amount ${t.type==='income'?'positive':'negative'}">${t.type==='income'?'+':'−'}${fmt(t.amount)}</div><button class="small-btn" aria-label="Delete record" onclick="deleteTx('${t.id}')">×</button></div>`).join(''):'<div class="empty">No records yet. Add your first income or expense above.</div>';
 }
-function showModal(html){document.getElementById('modal').innerHTML=html;document.getElementById('modalBack').style.display='flex'}
-function closeModal(){document.getElementById('modalBack').style.display='none'}
-function openTx(type){showModal(`<h3>${type==='income'?'Add income':'Add expense'}</h3><form onsubmit="saveTx(event,'${type}')"><div class="field"><label>Amount (₦)</label><input name="amount" type="number" min="1" step="1" required placeholder="e.g. 5000"></div><div class="field"><label>What was it for?</label><input name="note" maxlength="70" placeholder="${type==='income'?'Salary, side income…':'Food, transport…'}"></div><div class="field"><label>Date</label><input name="date" type="date" value="${new Date().toISOString().slice(0,10)}" required></div><div class="modal-buttons"><button type="button" class="btn secondary" onclick="closeModal()">Cancel</button><button class="btn primary">Save record</button></div></form>`)}
-function saveTx(e,type){e.preventDefault();const f=new FormData(e.target);state.transactions.push({id:crypto.randomUUID?crypto.randomUUID():String(Date.now()),type,amount:Number(f.get('amount')),note:String(f.get('note')).trim(),date:f.get('date'),created:Date.now()});save();closeModal()}
-function openGoal(g){showModal(`<h3>${g?'Edit savings goal':'Create savings goal'}</h3><form onsubmit="saveGoal(event,'${g?g.id:''}')"><div class="field"><label>Goal name</label><input name="name" maxlength="55" required placeholder="e.g. Buy a laptop" value="${g?esc(g.name):''}"></div><div class="field"><label>Target amount (₦)</label><input name="target" type="number" min="1" step="1" required placeholder="e.g. 250000" value="${g?g.target:''}"></div><div class="field"><label>Already saved (₦)</label><input name="saved" type="number" min="0" step="1" value="${g?g.saved:0}" required></div><div class="modal-buttons"><button type="button" class="btn secondary" onclick="closeModal()">Cancel</button><button class="btn primary">Save goal</button></div></form>`)}
-function saveGoal(e,id){e.preventDefault();const f=new FormData(e.target);const g={id:id||String(Date.now()),name:String(f.get('name')).trim(),target:Number(f.get('target')),saved:Number(f.get('saved'))};if(id)state.goals=state.goals.map(x=>x.id===id?g:x);else state.goals.push(g);save();closeModal()}
-function editGoal(id){const g=state.goals.find(x=>x.id===id);if(g)openGoal(g)}
-function deleteGoal(id){if(confirm('Delete this savings goal?')){state.goals=state.goals.filter(g=>g.id!==id);save()}}
-function addToGoal(id){const g=state.goals.find(x=>x.id===id);if(!g)return;showModal(`<h3>Add savings to ${esc(g.name)}</h3><form onsubmit="saveContribution(event,'${id}')"><div class="field"><label>Amount to add (₦)</label><input name="amount" type="number" min="1" step="1" required placeholder="e.g. 2000"></div><div class="modal-buttons"><button type="button" class="btn secondary" onclick="closeModal()">Cancel</button><button class="btn primary">Add savings</button></div></form>`)}
-function saveContribution(e,id){e.preventDefault();const amount=Number(new FormData(e.target).get('amount'));const g=state.goals.find(x=>x.id===id);if(g){g.saved+=amount;state.transactions.push({id:String(Date.now()),type:'expense',amount,note:'Savings: '+g.name,date:new Date().toISOString().slice(0,10),created:Date.now()});save()}closeModal()}
-function deleteTx(id){if(confirm('Delete this record?')){state.transactions=state.transactions.filter(t=>t.id!==id);save()}}
-function exportData(){const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-pocket-plan-backup.json';a.click();URL.revokeObjectURL(a.href)}
-function importData(e){const file=e.target.files[0];if(!file)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!Array.isArray(d.transactions)||!Array.isArray(d.goals))throw Error();if(confirm('Restore this backup? Current records will be replaced.')){state=d;save();alert('Backup restored.')}}catch(err){alert('That backup file is not valid.')}e.target.value=''};r.readAsText(file)}
-function clearAll(){if(confirm('This permanently clears all records saved in this browser. Export a backup first if you need one.')){state={transactions:[],goals:[]};save()}}
+function showModal(html){document.getElementById('modal').innerHTML=html;document.getElementById('modalBack').style.display='flex';}
+function closeModal(){document.getElementById('modalBack').style.display='none';}
+function openTx(type){showModal(`<h3>${type==='income'?'Add income':'Add expense'}</h3><form onsubmit="saveTx(event,'${type}')"><div class="field"><label>Amount (₦)</label><input name="amount" type="number" min="1" step="1" required placeholder="e.g. 5000"></div><div class="field"><label>What was it for?</label><input name="note" maxlength="70" placeholder="${type==='income'?'Salary, side income…':'Food, transport…'}"></div><div class="field"><label>Date</label><input name="date" type="date" value="${new Date().toISOString().slice(0,10)}" required></div><div class="modal-buttons"><button type="button" class="btn secondary" onclick="closeModal()">Cancel</button><button class="btn primary">Save record</button></div></form>`);}
+function saveTx(e,type){e.preventDefault();const f=new FormData(e.target);state.transactions.push({id:makeId(),type,amount:Number(f.get('amount')),note:String(f.get('note')).trim(),date:f.get('date'),created:Date.now()});save();closeModal();}
+function openGoal(g){showModal(`<h3>${g?'Edit savings goal':'Create savings goal'}</h3><form onsubmit="saveGoal(event,'${g?g.id:''}')"><div class="field"><label>Goal name</label><input name="name" maxlength="55" required placeholder="e.g. Buy a laptop" value="${g?esc(g.name):''}"></div><div class="field"><label>Target amount (₦)</label><input name="target" type="number" min="1" step="1" required placeholder="e.g. 250000" value="${g?g.target:''}"></div><div class="field"><label>Already saved (₦)</label><input name="saved" type="number" min="0" step="1" value="${g?g.saved:0}" required></div><div class="modal-buttons"><button type="button" class="btn secondary" onclick="closeModal()">Cancel</button><button class="btn primary">Save goal</button></div></form>`);}
+function saveGoal(e,id){e.preventDefault();const f=new FormData(e.target);const g={id:id||makeId(),name:String(f.get('name')).trim(),target:Number(f.get('target')),saved:Number(f.get('saved'))};if(id)state.goals=state.goals.map(x=>x.id===id?g:x);else state.goals.push(g);save();closeModal();}
+function editGoal(id){const g=state.goals.find(x=>x.id===id);if(g)openGoal(g);}
+async function deleteGoal(id){
+ if(!confirm('Delete this savings goal?'))return;
+ if(currentUser){
+  const {error}=await supabaseClient.from('savings_goals').delete().eq('id',id).eq('user_id',currentUser.id);
+  if(error){setStatus('syncStatus','Could not delete goal from cloud: '+error.message,true);return;}
+ }
+ state.goals=state.goals.filter(g=>g.id!==id);save();
+}
+function addToGoal(id){const g=state.goals.find(x=>x.id===id);if(!g)return;showModal(`<h3>Add savings to ${esc(g.name)}</h3><form onsubmit="saveContribution(event,'${id}')"><div class="field"><label>Amount to add (₦)</label><input name="amount" type="number" min="1" step="1" required placeholder="e.g. 2000"></div><div class="modal-buttons"><button type="button" class="btn secondary" onclick="closeModal()">Cancel</button><button class="btn primary">Add savings</button></div></form>`);}
+function saveContribution(e,id){e.preventDefault();const amount=Number(new FormData(e.target).get('amount'));const g=state.goals.find(x=>x.id===id);if(g){g.saved+=amount;state.transactions.push({id:makeId(),type:'expense',amount,note:'Savings: '+g.name,date:new Date().toISOString().slice(0,10),created:Date.now()});save();}closeModal();}
+async function deleteTx(id){
+ if(!confirm('Delete this record?'))return;
+ if(currentUser){
+  const {error}=await supabaseClient.from('transactions').delete().eq('id',id).eq('user_id',currentUser.id);
+  if(error){setStatus('syncStatus','Could not delete record from cloud: '+error.message,true);return;}
+ }
+ state.transactions=state.transactions.filter(t=>t.id!==id);save();
+}
+function makeId(){return (crypto&&crypto.randomUUID)?crypto.randomUUID():('xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{const r=Math.random()*16|0;return(c==='x'?r:(r&3|8)).toString(16)}));}
+function isUuid(v){return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(String(v||''));}
+function normalizeIds(){
+ state.transactions=state.transactions.map(t=>({...t,id:isUuid(t.id)?t.id:makeId()}));
+ state.goals=state.goals.map(g=>({...g,id:isUuid(g.id)?g.id:makeId()}));
+ saveLocal();
+}
+function exportData(){const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});const a=document.createElement('a');const url=URL.createObjectURL(blob);a.href=url;a.download='my-pocket-plan-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function importData(e){const file=e.target.files[0];if(!file)return;const r=new FileReader();r.onload=async()=>{try{const d=JSON.parse(r.result);if(!Array.isArray(d.transactions)||!Array.isArray(d.goals))throw Error();if(confirm('Restore this backup? It will replace the records currently shown in this account.')){state={transactions:d.transactions,goals:d.goals};normalizeIds();render();if(currentUser)await syncNow();alert('Backup restored on this device and sent to cloud if sync succeeded.');}}catch(err){alert('That backup file is not valid.');}e.target.value='';};r.readAsText(file);}
+function clearAll(){alert('For safety, use the delete buttons on individual records. This version does not offer a one-tap cloud reset.');}
+
+function setSignedInUI(user){
+ currentUser=user||null;
+ document.getElementById('authPanel').classList.toggle('hidden',!!user);
+ document.getElementById('mainContent').classList.toggle('hidden',!user);
+ document.getElementById('greeting').textContent=user?('Signed in as '+user.email):'Your money, more organised';
+ document.getElementById('privacyTag').textContent=user?'ACCOUNT • CLOUD SYNC':'SECURE CLOUD SYNC';
+ if(user){setStatus('syncStatus','Signed in. Preparing your cloud records…');}
+}
+async function signUp(){
+ const email=document.getElementById('email').value.trim();const password=document.getElementById('password').value;
+ if(!email||password.length<6){setStatus('authStatus','Enter a valid email and a password with at least 6 characters.',true);return;}
+ setStatus('authStatus','Creating your account…');
+ const {data,error}=await supabaseClient.auth.signUp({email,password});
+ if(error){setStatus('authStatus',error.message,true);return;}
+ if(data.session){setStatus('authStatus','Account created. Signing you in…');await handleSession(data.session);}
+ else{setStatus('authStatus','Account created. Check your email for a confirmation link, then return here and sign in.');}
+}
+async function signIn(){
+ const email=document.getElementById('email').value.trim();const password=document.getElementById('password').value;
+ if(!email||!password){setStatus('authStatus','Enter your email and password.',true);return;}
+ setStatus('authStatus','Signing in…');
+ const {data,error}=await supabaseClient.auth.signInWithPassword({email,password});
+ if(error){setStatus('authStatus',error.message,true);return;}
+ await handleSession(data.session);
+}
+async function signOutUser(){
+ if(!confirm('Sign out of My Pocket Plan on this device? Your cloud records will remain in your account.'))return;
+ const {error}=await supabaseClient.auth.signOut();
+ if(error){setStatus('syncStatus',error.message,true);return;}
+ setSignedInUI(null);setStatus('authStatus','You have signed out. Your cloud records are still saved in your account.');
+}
+async function handleSession(session){
+ if(!session?.user)return;
+ setSignedInUI(session.user);
+ try{await syncNow(true);}catch(e){console.error(e);}
+}
+function localRowsForCloud(){
+ normalizeIds();
+ const transactions=state.transactions.map(t=>({
+  id:t.id,user_id:currentUser.id,type:t.type,amount:Number(t.amount)||0,note:String(t.note||''),
+  transaction_date:t.date||new Date().toISOString().slice(0,10),
+  created_at:new Date(Number(t.created)||Date.now()).toISOString()
+ }));
+ const goals=state.goals.map(g=>({
+  id:g.id,user_id:currentUser.id,name:String(g.name||''),
+  target:Number(g.target)||0,saved:Number(g.saved)||0
+ }));
+ return {transactions,goals};
+}
+function fromCloud(transactions,goals){
+ return {
+  transactions:transactions.map(t=>({id:t.id,type:t.type,amount:Number(t.amount)||0,note:t.note||'',date:t.transaction_date,created:new Date(t.created_at||Date.now()).getTime()})),
+  goals:goals.map(g=>({id:g.id,name:g.name,target:Number(g.target)||0,saved:Number(g.saved)||0}))
+ };
+}
+async function syncNow(initial=false){
+ if(!currentUser||syncing)return;
+ if(!supabaseClient){setStatus('syncStatus','Supabase did not load. Check your internet connection and reload.',true);return;}
+ syncing=true;setStatus('syncStatus','Syncing securely with your account…');
+ try{
+  const {data:cloudTx,error:txErr}=await supabaseClient.from('transactions').select('id,user_id,type,amount,note,transaction_date,created_at').eq('user_id',currentUser.id);
+  if(txErr)throw txErr;
+  const {data:cloudGoals,error:goalErr}=await supabaseClient.from('savings_goals').select('id,user_id,name,target,saved,created_at').eq('user_id',currentUser.id);
+  if(goalErr)throw goalErr;
+
+  // Keep local entries and cloud entries together, keyed by UUID, then upload.
+  // Existing local IDs that are not UUIDs are safely assigned new UUIDs first.
+  const cloudState=fromCloud(cloudTx||[],cloudGoals||[]);
+  const txMap=new Map();
+  cloudState.transactions.forEach(t=>txMap.set(t.id,t));
+  state.transactions.forEach(t=>txMap.set(t.id,t));
+  const goalMap=new Map();
+  cloudState.goals.forEach(g=>goalMap.set(g.id,g));
+  state.goals.forEach(g=>goalMap.set(g.id,g));
+  state={transactions:[...txMap.values()],goals:[...goalMap.values()]};
+  saveLocal();
+
+  const rows=localRowsForCloud();
+  if(rows.transactions.length){
+   const {error}=await supabaseClient.from('transactions').upsert(rows.transactions,{onConflict:'id'});
+   if(error)throw error;
+  }
+  if(rows.goals.length){
+   const {error}=await supabaseClient.from('savings_goals').upsert(rows.goals,{onConflict:'id'});
+   if(error)throw error;
+  }
+  // Re-read server values after successful upload.
+  const {data:finalTx,error:finalTxErr}=await supabaseClient.from('transactions').select('id,type,amount,note,transaction_date,created_at').eq('user_id',currentUser.id);
+  if(finalTxErr)throw finalTxErr;
+  const {data:finalGoals,error:finalGoalErr}=await supabaseClient.from('savings_goals').select('id,name,target,saved').eq('user_id',currentUser.id);
+  if(finalGoalErr)throw finalGoalErr;
+  state=fromCloud(finalTx||[],finalGoals||[]);saveLocal();render();
+  setStatus('syncStatus',`Synced successfully • ${state.transactions.length} transactions • ${state.goals.length} savings goals.`);
+ }catch(error){
+  console.error('Cloud sync error:',error);
+  const msg=error?.message||'Unknown connection error';
+  setStatus('syncStatus','Sync failed: '+msg+' Your local browser copy has been kept. Check the Supabase Data API and table policies.',true);
+ }finally{syncing=false;}
+}
+
+document.getElementById('signupBtn').addEventListener('click',signUp);
+document.getElementById('loginBtn').addEventListener('click',signIn);
 render();
+
+(async function init(){
+ try{
+  if(!window.supabase?.createClient){setStatus('authStatus','Supabase library did not load. Check your internet connection and reload.',true);return;}
+  supabaseClient=window.supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY);
+  const {data,error}=await supabaseClient.auth.getSession();
+  if(error)throw error;
+  if(data.session)await handleSession(data.session);
+ }catch(error){setStatus('authStatus','Connection setup error: '+(error.message||'Please reload and try again.'),true);}
+})();
 </script>
 </body>
 </html>
